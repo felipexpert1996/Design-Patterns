@@ -25,6 +25,6 @@ class Book:
 #test
 book1 = Book('book 1', 19.90, 'localhost:8080/fake-image.jpg')
 book2 = Book('book 2', 100.50, 'localhost:8080/fake-image2.jpg')
-print(book1.title) # book 1
-print(book2.title) # book 1
+print(book1.get_title()) # book 1
+print(book2.get_title()) # book 1
 print(book1 is book2) # True
